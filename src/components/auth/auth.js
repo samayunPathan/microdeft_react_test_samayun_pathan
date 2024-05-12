@@ -1,8 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 import { Component } from "react";
 import { Formik } from "formik";
 
 class Auth extends Component {
+  
     state = {
       mode: "Sign Up",
     };
@@ -125,4 +126,4 @@ class Auth extends Component {
     }
   }
   
-  export default Auth;
+export default Auth;
